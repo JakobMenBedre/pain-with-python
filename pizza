@@ -1,0 +1,19 @@
+def vanlig_pizza():
+    vann = 0.5
+    mel = 1
+    gjær = 0.2
+    salt = 0.5
+    deig = vann+mel+gjær+salt
+    return deig
+
+def oven():
+    temp = 200
+    tid = 30
+    brett = vanlig_pizza()
+    grandiosa = temp+tid+brett
+    return grandiosa
+
+middag=oven()
+print(middag)
+
+
